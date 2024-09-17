@@ -1,0 +1,36 @@
+.cardContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.cardBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.cardText {
+  padding: 20px;
+}
+.cardPrice {
+  padding: 20px;
+  margin-left: auto;
+}
+body {
+  background-color: #1b1b1b;
+}
